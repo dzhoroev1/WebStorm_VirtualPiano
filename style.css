@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    background: lightpink;
+}
+.container{
+    display: flex;
+    height: 50vh;
+}
+.white-keys{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.white-keys kbd{
+    display: flex;
+    width: 10vw;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+}
+.black-keys{
+    display: flex;
+    position: absolute;
+    height: 20vh;
+}
+.black-keys kbd{
+    display: flex;
+    width: 5vw;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+    border: 1px solid black;
+    color: white;
+}
+#W{
+    margin-left: 7.5vw;
+}
+#E,#Y,#U{
+    margin-left: 5vw;
+}
+#T{
+    margin-left: 15vw;
+}
+
